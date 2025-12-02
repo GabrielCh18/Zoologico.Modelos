@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Zoologico.Api/Zoologico.Api.csproj" />
+  <Project Path="Zoologico.Modelos/Zoologico.Modelos.csproj" />
+</Solution>
