@@ -15,4 +15,4 @@ RUN dotnet publish "Zoologico.Modelos.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Zoologico.Modelos.dll"]  
+ENTRYPOINT ["dotnet", "Zoologico.Modelos.dll"]
